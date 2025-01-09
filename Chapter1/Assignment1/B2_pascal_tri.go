@@ -19,10 +19,10 @@ func main() {
 
 		//  values 	
 		
-                val := 1
+               
 	            	for i := 0; i <= line; i++ {
 	            		fmt.Print(val, " ")
-	            		val = val + 1
+	            		
 	            	}
 	            	fmt.Println()
 	}
