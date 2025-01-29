@@ -20,3 +20,4 @@ func main() {
 	copy(copiedSlice, slice)
 	fmt.Println("Copied slice:", copiedSlice)
 }
+
