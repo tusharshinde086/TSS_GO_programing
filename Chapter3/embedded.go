@@ -15,6 +15,7 @@ type AuthorArticles interface {
 // Interface 3
 
 // Interface 3 embedded with
+
 // interface 1 and 2
 type FinalDetails interface {
 	AuthorDetails
@@ -68,4 +69,5 @@ func main() {
 	var f FinalDetails = values
 	f.details()
 	f.articles()
+
 }
