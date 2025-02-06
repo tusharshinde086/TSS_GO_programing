@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-// Employee structure
 type Employee struct {
 	eno    int
 	ename  string
@@ -16,14 +15,12 @@ func findMaxSalaryEmployees(employees []Employee) []Employee {
 	maxSalary := employees[0].salary
 	var maxEmployees []Employee
 
-	// Find max salary
 	for _, emp := range employees {
 		if emp.salary > maxSalary {
 			maxSalary = emp.salary
 		}
 	}
 
-	// Collect employees with max salary
 	for _, emp := range employees {
 		if emp.salary == maxSalary {
 			maxEmployees = append(maxEmployees, emp)
@@ -36,13 +33,11 @@ func findMaxSalaryEmployees(employees []Employee) []Employee {
 func main() {
 	var n int
 
-	// Accept number of employees
 	fmt.Print("Enter number of employees: ")
 	fmt.Scan(&n)
 
 	employees := make([]Employee, n)
 
-	// Input employee records
 	for i := 0; i < n; i++ {
 		fmt.Printf("\nEnter details for Employee %d:\n", i+1)
 		fmt.Print("Employee Number: ")
