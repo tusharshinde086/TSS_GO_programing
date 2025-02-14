@@ -6,8 +6,8 @@ func main() {
 	var ip *int
 	var fp *float32
 
-	var a = 10
-	var b = 3.14
+	var a int = 10
+	var b float32 = 3.14
 
 	ip = &a
 	fp = &b
