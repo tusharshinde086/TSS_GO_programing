@@ -1,7 +1,7 @@
 package main
 
 import (
-	"C:/TSS_GO_Programing/Chapter6/golang-book/programgo/math"
+	"/golang-book/programgo/math"
 	"fmt"
 )
 
