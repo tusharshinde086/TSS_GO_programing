@@ -19,3 +19,11 @@ func main() {
 		fmt.Print(arr[i], " ")
 	}
 }
+
+//Enter the number of elements to add in array :
+// 2
+// Enter the elements of array :
+// 11
+// 12
+// The array is:
+// 11 12
