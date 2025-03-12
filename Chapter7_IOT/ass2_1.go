@@ -17,7 +17,7 @@ func fibonacci(n int) {
 	a, b := 0, 1
 	for i := 0; i < n; i++ {
 		fmt.Print(a, " ")
-		a, b = b, a+b // Update a and b
+		a, b = b, a+b
 	}
-	fmt.Println() // New line after the series
+	fmt.Println()
 }
