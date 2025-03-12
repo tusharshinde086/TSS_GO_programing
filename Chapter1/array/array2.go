@@ -34,3 +34,12 @@ func main() {
 		fmt.Println()
 	}
 }
+
+// //  go run array2.go
+// Enter number of rows and columns: 2 3
+// Enter the elements row by row:
+// 12 13 14
+// 15 16 17
+// Your matrix is:
+// 12 13 14
+// 15 16 17
