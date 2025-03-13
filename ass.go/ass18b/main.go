@@ -1,8 +1,8 @@
 package main
 
 import (
+	"/calculator" // Replace with your actual module name
 	"fmt"
-	"your_module_name/calculator" // Replace with your actual module name
 )
 
 func main() {
