@@ -1,7 +1,7 @@
 package main
 
 import (
-	"/calculator" // Replace with your actual module name
+	"ass18b/calculator" // Replace with your actual module name
 	"fmt"
 )
 
