@@ -1,21 +1,45 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var n int
-	fmt.Println("Enter the number of elements:")
-	fmt.Scan(&n)
+	var rows, cols int
 
-	arr := make([]int, n)
+	// Get dimensions from the user
+	fmt.Print("Enter number of rows and columns: ")
+	fmt.Scan(&rows, &cols)
 
-	fmt.Println("Enter the elements:")
-	for i := 0; i < n; i++ {
-		fmt.Scan(&arr[i])
+	// Declare a 2D array based on input size
+	matrix := make([][]int, rows)
+	for i := range matrix {
+		matrix[i] = make([]int, cols)
 	}
 
-	fmt.Println("The array is:")
-	for i := 0; i < n; i++ {
-		fmt.Print(arr[i], " ")
+	// Take input for each element
+	fmt.Println("Enter the elements row by row:")
+	for i := 0; i < rows; i++ {
+		for j := 0; j < cols; j++ {
+			fmt.Scan(&matrix[i][j])
+		}
+	}
+
+	// Display the 2D array
+	fmt.Println("Your matrix is:")
+	for _, row := range matrix {
+		for _, val := range row {
+			fmt.Printf("%d ", val)
+		}
+		fmt.Println()
 	}
 }
+
+// //  go run array2.go
+// Enter number of rows and columns: 2 3
+// Enter the elements row by row:
+// 12 13 14
+// 15 16 17
+// Your matrix is:
+// 12 13 14
+// 15 16 17
