@@ -19,3 +19,7 @@ func main() {
 		fmt.Println("Number is less than 10")
 	}
 }
+
+// Number is greater than 5
+// Number is even
+// Number is less than 10
