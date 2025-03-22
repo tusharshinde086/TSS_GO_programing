@@ -32,11 +32,13 @@ void loop() {
   delay(1000);                // Wait for 1 second
 }
 
+
 // Observations on Input and Output
 // Input: The program does not require any external input; it runs indefinitely until interrupted.
 // Output: The LED connected to pin 8 blinks ON and OFF every second, creating a visible blinking effect.
 // Result and Conclusion
 // Result: The program successfully turns the LED ON and OFF at 1-second intervals.
+
 // Conclusion: This demonstrates basic GPIO control using Arduino. The ability to control output devices like LEDs is fundamental in embedded systems and IoT applications. This setup can be used in various applications, such as visual indicators or alarms.
 // Summary
 // Block Diagram: Illustrated the connections between the Arduino Uno, IR/Temperature sensor, and LED.
